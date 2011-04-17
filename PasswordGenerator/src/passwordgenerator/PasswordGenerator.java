@@ -6,12 +6,12 @@ package passwordgenerator;
 
 /**
  *
- * @author wolle
+ * @author Philipp Kretzschmar
  */
 public class PasswordGenerator {
 
     private static String[] ascci;
-
+    
     static {
         PasswordGenerator.ascci = getAssciStringArray();
     }
@@ -23,6 +23,7 @@ public class PasswordGenerator {
         for (char i = 0; i < asciiDigitSize; i++) {
             ascii[i] = Character.toString(i);
         }
+
         return ascii.clone();
     }
 

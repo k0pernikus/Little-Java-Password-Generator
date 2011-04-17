@@ -1,7 +1,7 @@
 package passwordgenerator;
 
 /**
- * @author wolle
+ * @author Philipp Kretzschmar
  */
 public class StringShuffler {
     public static String shuffleString(String str) {
